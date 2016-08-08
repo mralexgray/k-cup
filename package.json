@@ -1,0 +1,33 @@
+{
+  "name": "k-cup",
+  "version": "1.0.0",
+  "description": "the easy express",
+  "repository": 
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Gray <alex@mrgray.com> (http://mrgray.com)",
+  "license": "ISC",
+  "dependencies": {
+  	"bcrypt-nodejs": "latest",
+  	"body-parser": "*",
+  	"coffeecup": "^0.3.21",
+    "coffeecup-helpers": "^0.1.1",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "*",
+    "express": "*",
+    "express-bootstrap-service": "^1.0.0",
+    "express-partials": "^0.3.0",
+    "express-session": "*",
+    "method-override": "*",
+    "mongoose": "*",
+    "morgan": "*",
+    "passport": "*",
+    "passport-facebook": "*",
+    "passport-local": "*"
+  },
+  "devDependencies": {
+    "livereload": "^0.5.0"
+  }
+}
