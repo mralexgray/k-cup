@@ -2,6 +2,9 @@
 doctype 5
 html ->
 	head ->
+		meta charset: 'utf-8'
+		meta name: 'viewport', content: ['width=1','initial-scale=1','user-scalable=1']
+
 		stylus '''
 			.stripped
 			  padding: 2.25em 1.6875em;
